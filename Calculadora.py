@@ -4,11 +4,11 @@ operacao = int(input(''' Selecione o número da operacao desejada:
                   2 = Subtração
                   3 = Multiplicação
                   4 = Divisão
-                  Digite sua opção (1/2/3/4): '''))
+                  Digite uma opção (1/2/3/4): '''))
 
 #Inicio do condição de soma
 if operacao == 1:
-    n1 = int(input('Digite o primeiro numeor: '))
+    n1 = int(input('Digite o primeiro numero: '))
     n2 = int(input('Digite o segundo numero: '))
     resultado_soma = (n1+n2)
     print('A soma de %s + %s é =' %(n1,n2),resultado_soma )
